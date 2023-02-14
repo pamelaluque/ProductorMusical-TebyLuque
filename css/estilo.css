@@ -502,7 +502,7 @@ p{
 
 .title-myworks{
     grid-column: span 6;
-    grid-row: 2 / 4;
+    grid-row: 2 / 3;
     color: white;
 }
 
@@ -532,16 +532,14 @@ p{
 .referencias{
     display: grid;
     grid-column: span 6;
-    grid-row: 4 / 8;
+    grid-row: 3 / 8;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    /*border: 3px white solid;*/
     margin: 10px;
 }
-
 
 .card{
     background: none;
@@ -555,12 +553,26 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 90%;
     height: auto;
     margin: 20px;
 }
+
+@media (max-width: 767px) {
+    .referencias img{
+        width: 50%;
+        height: auto;
+    }
+}
+
 .referencias a{
     margin-left: 20px;
+}
+
+@media (max-width: 767px) {
+    .btn-success{
+        display:block;
+    }
 }
 
 .card-body{
@@ -576,11 +588,18 @@ p{
     margin: 0px 5px 10px;
 }
 
+@media (max-width: 767px) {
+    .card-title{
+        text-align: center;
+    }
+}
+
 .referencias p{
     background-color: rgba(0, 0, 0, 0.425);
     border: 3px solid white;
     border-radius: 5px;
     padding: 15px;
+    text-align: justify;
 }
 
 .descripcion{
@@ -588,13 +607,6 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    height: 300px;
-}
-.card-body{
-    height: 280px;
-    width: 0 auto;
-    margin:5px 15px 5px;
-    padding: 5px;
 }
 
 .title-contact{
