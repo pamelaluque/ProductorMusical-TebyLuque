@@ -1,0 +1,62 @@
+.aboutme{
+    grid-column: 1 / 4;
+    grid-row: 2 / 8;
+    font-size: 3rem;
+    color:white;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: lighter;
+    padding: 10px;
+    @media (max-width: 880px){
+        grid-column: 1 / 7;
+        grid-row: 2 / 4;
+    }
+    .titulo{
+        background-color: rgba(72, 156, 128, 0.452);
+        border-radius: 5px;
+        font-size: 25px;
+        letter-spacing: 5px;
+        word-spacing: 10px;
+        font-weight: lighter;
+        padding: 8px;
+        margin: 25px;
+        text-align: center;
+        text-justify: center;
+    }
+    p{
+        font-size: 1rem;
+        letter-spacing: 5px;
+        word-spacing: 10px;
+        line-height: 25px;
+        margin: 15px;
+        text-align: center;
+        text-justify: center;
+        a{
+        list-style: none;
+        cursor: pointer;
+        color: white;
+        }
+    }
+    h2{
+        font-size: 1.2rem;
+        text-align: center;
+        text-justify: center;
+    }
+}
+.carusel{
+    grid-column: 4 / 9;
+    grid-row: 2 / 8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    @media (max-width: 880px){
+        grid-column: 1 / 7;
+        grid-row: 4 / 8;
+    }
+    .carousel-inner img{
+        border-radius: 10px;
+    }
+}
