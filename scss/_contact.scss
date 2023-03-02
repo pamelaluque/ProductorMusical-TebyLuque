@@ -1,13 +1,13 @@
 .title-contact{
     grid-column: span 6;
     grid-row: 2 / 4;
-    color: white;
+    color: $colorLetra;
     @media (max-width: 880px){
         grid-column: span 6;
         grid-row: 2 / 3;
     }
     .contact-titulo{
-        background-color: rgba(127, 255, 212, 0.267);
+        background-color:$colorFondoH1;
         border-radius: 5px;
         text-align: center;
         text-justify: center;
@@ -19,7 +19,7 @@
         font-weight: lighter;
     }
     p{
-        color: white;
+        color:$colorLetra;
         text-align: center;
         text-justify: center;
         font-size: 1rem;
@@ -43,11 +43,11 @@
         grid-row: 4 / 6;
     }
     form{
-        background-color:  rgba(127, 255, 212, 0.267);
+        background-color:  #7fffd444;
         border-radius: 5px;
         margin: 15px;
         padding: 15px;
-        color: white;
+        color: $colorLetra;
         letter-spacing: 3px;
         font-size: 12px;
         .label{
@@ -99,7 +99,7 @@
     a{
         text-decoration: none;
         cursor: pointer;
-        color: white;
+        color:$colorLetra;
         letter-spacing: 5px;
     }
     img{

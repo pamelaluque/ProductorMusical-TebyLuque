@@ -1,13 +1,13 @@
 .title-services{
     grid-column: span 6;
     grid-row: 2 / 4;
-    color: white;
+    color: $colorLetra;
     @media (max-width: 880px) {
         grid-column: span 6;
         grid-row: 2 / 3;
     }
     .services-titulo{
-        background-color: rgba(72, 156, 128, 0.452);
+        background-color: $colorFondoH1;
         border-radius: 5px;
         text-align: center;
         text-justify: center;
@@ -19,7 +19,7 @@
         font-weight: lighter;
     }
     p{
-        color: white;
+        color: $colorLetra;
         text-align: center;
         text-justify: center;
         font-size: 1rem;
@@ -81,8 +81,8 @@
             grid-row: 3 / 4;
     }
     .servicio{
-        color: white;
-        background-color: rgba(72, 156, 128, 0.452);
+        color: $colorLetra;
+        background-color: $colorFondoH1;
         border-radius: 10px;
         font-size: 20px;
         padding: 10px;
@@ -96,11 +96,11 @@
         }
     }
     p{
-        color:white;
+        color:$colorLetra;
         border: 3px white solid;
         border-radius: 3px;
         padding: 10px;
-        background-color: rgba(0, 0, 0, 0.425);
+        background-color: $colorFondoTexto;
     }
 }
 .detalle-servicio2{
@@ -128,8 +128,8 @@
         grid-row: 4 / 5;
     }
     .servicio{
-        color: white;
-        background-color: rgba(72, 156, 128, 0.452);
+        color:$colorLetra;
+        background-color: $colorFondoH1;
         border-radius: 10px;
         font-size: 20px;
         padding: 10px;
@@ -143,11 +143,11 @@
         }
     }
     p{
-        color: white;
+        color: $colorLetra;
         border: 3px white solid;
         border-radius: 3px;
         padding: 10px;
-        background-color: rgba(0, 0, 0, 0.425);
+        background-color: $colorFondoTexto;
     }
 }
 .imagen-servicio2{
@@ -231,8 +231,8 @@
         grid-row: 5 / 6;
     }
     .servicio{
-        color: white;
-        background-color: rgba(72, 156, 128, 0.452);
+        color: $colorLetra;
+        background-color: $colorFondoH1;
         border-radius: 10px;
         font-size: 20px;
         padding: 10px;
@@ -246,11 +246,11 @@
         }
     }
     p{
-        color: white;
+        color: $colorLetra;
         border: 3px white solid;
         border-radius: 3px;
         padding: 10px;
-        background-color: rgba(0, 0, 0, 0.425);
+        background-color: $colorFondoTexto;
     }
 }
 .detalle-servicio4{
@@ -279,8 +279,8 @@
         grid-row: 6 / 7;
     }
     .servicio{
-        color: white;
-        background-color: rgba(72, 156, 128, 0.452);
+        color:$colorLetra;
+        background-color: $colorFondoH1;
         border-radius: 10px;
         font-size: 20px;
         padding: 10px;
@@ -294,11 +294,11 @@
         }
     }
     p{
-        color: white;
+        color: $colorLetra;
         border: 3px white solid;
         border-radius: 3px;
         padding: 10px;
-        background-color: rgba(0, 0, 0, 0.425);
+        background-color: $colorFondoTexto;
     }
 }
 .imagen-servicio4{

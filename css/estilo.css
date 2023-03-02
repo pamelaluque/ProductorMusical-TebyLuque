@@ -22,7 +22,7 @@
       grid-column: 1 / 7;
       grid-row: 2 / 4; } }
   .aboutme .titulo {
-    background-color: rgba(72, 156, 128, 0.452);
+    background-color: #489c8073;
     border-radius: 5px;
     font-size: 25px;
     letter-spacing: 5px;
@@ -72,7 +72,7 @@
       grid-column: span 6;
       grid-row: 2 / 3; } }
   .title-services .services-titulo {
-    background-color: rgba(72, 156, 128, 0.452);
+    background-color: #489c8073;
     border-radius: 5px;
     text-align: center;
     text-justify: center;
@@ -144,7 +144,7 @@
       grid-row: 3 / 4; } }
   .detalle-servicio1 .servicio {
     color: white;
-    background-color: rgba(72, 156, 128, 0.452);
+    background-color: #489c8073;
     border-radius: 10px;
     font-size: 20px;
     padding: 10px;
@@ -160,7 +160,7 @@
     border: 3px white solid;
     border-radius: 3px;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.425); }
+    background-color: #0000006c; }
 
 .detalle-servicio2 {
   display: grid;
@@ -188,7 +188,7 @@
       grid-row: 4 / 5; } }
   .detalle-servicio2 .servicio {
     color: white;
-    background-color: rgba(72, 156, 128, 0.452);
+    background-color: #489c8073;
     border-radius: 10px;
     font-size: 20px;
     padding: 10px;
@@ -204,7 +204,7 @@
     border: 3px white solid;
     border-radius: 3px;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.425); }
+    background-color: #0000006c; }
 
 .imagen-servicio2 {
   display: grid;
@@ -284,7 +284,7 @@
       grid-row: 5 / 6; } }
   .detalle-servicio3 .servicio {
     color: white;
-    background-color: rgba(72, 156, 128, 0.452);
+    background-color: #489c8073;
     border-radius: 10px;
     font-size: 20px;
     padding: 10px;
@@ -300,7 +300,7 @@
     border: 3px white solid;
     border-radius: 3px;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.425); }
+    background-color: #0000006c; }
 
 .detalle-servicio4 {
   display: grid;
@@ -328,7 +328,7 @@
       grid-row: 6 / 7; } }
   .detalle-servicio4 .servicio {
     color: white;
-    background-color: rgba(72, 156, 128, 0.452);
+    background-color: #489c8073;
     border-radius: 10px;
     font-size: 20px;
     padding: 10px;
@@ -344,7 +344,7 @@
     border: 3px white solid;
     border-radius: 3px;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.425); }
+    background-color: #0000006c; }
 
 .imagen-servicio4 {
   display: grid;
@@ -377,7 +377,7 @@
   grid-row: 2 / 3;
   color: white; }
   .title-myworks .myworks-titulo {
-    background-color: rgba(72, 156, 128, 0.452);
+    background-color: #489c8073;
     border-radius: 5px;
     text-align: center;
     text-justify: center;
@@ -451,7 +451,7 @@
         .referencias .card .card-body .card-title {
           text-align: center; } }
       .referencias .card .card-body .card-text {
-        background-color: rgba(0, 0, 0, 0.425);
+        background-color: #0000006c;
         border: 3px solid white;
         border-radius: 5px;
         padding: 15px;
@@ -469,7 +469,7 @@
       grid-column: span 6;
       grid-row: 2 / 3; } }
   .title-contact .contact-titulo {
-    background-color: rgba(127, 255, 212, 0.267);
+    background-color: #489c8073;
     border-radius: 5px;
     text-align: center;
     text-justify: center;
@@ -503,7 +503,7 @@
       grid-column: span 6;
       grid-row: 4 / 6; } }
   .formulario form {
-    background-color: rgba(127, 255, 212, 0.267);
+    background-color: #7fffd444;
     border-radius: 5px;
     margin: 15px;
     padding: 15px;
@@ -636,7 +636,7 @@ body {
   body .footer {
     grid-column: span 6;
     grid-row: span 1;
-    background-color: rgba(0, 0, 0, 0.603);
+    background-color: #0000009a;
     background-size: cover;
     display: flex;
     flex-direction: column;
